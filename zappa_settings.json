@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "301.app",
+        "environment_variables": {
+            "REDIS_HOST": "YOUR_REDIS_HOST_HERE",
+            "REDIS_PORT": "6379"
+        },
+        "keep_warm": false
+    }
+}

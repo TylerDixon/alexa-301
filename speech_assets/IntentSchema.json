@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "intent": "StartGameIntent",
+      "slots": [
+        {
+          "name": "player_count",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AddScoreIntent",
+      "slots": [
+        {
+          "name": "score_one",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "score_two",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "score_three",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "player_number",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "GetScoreIntent"
+    }
+  ]
+}

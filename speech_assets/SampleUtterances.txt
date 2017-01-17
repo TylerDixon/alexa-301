@@ -1,0 +1,15 @@
+StartGameIntent start a game with {player_count}
+StartGameIntent start with {player_count}
+StartGameIntent play a game with {player_count}
+StartGameIntent play with {player_count}
+
+AddScoreIntent to add a score of a {score_one} a {score_two} and a {score_three} to player {player_number}
+AddScoreIntent to add a score of {score_one} {score_two} and {score_three} to player {player_number}
+AddScoreIntent to give player {player_number} a {score_one} a {score_two} and a {score_three}
+AddScoreIntent to give player {player_number} {score_one} {score_two} and {score_three}
+AddScoreIntent to give {score_one} then {score_two} then {score_three} to player {player_number}
+
+GetScoreIntent what the current score is
+GetScoreIntent what is the current score
+GetScoreIntent what the score is
+GetScoreIntent what is the score

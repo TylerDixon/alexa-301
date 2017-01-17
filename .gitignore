@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# PyCharm settings
+.idea
+
+# Zappa deployment settings
+zappa_settings.json
